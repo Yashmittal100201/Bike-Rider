@@ -7,7 +7,7 @@ import './home.css';
 const Home = () => {
   return (
     <Layout>
-      <Container sx={{ display:'flex',flexDirection:'column', backgroundImage: `url(${banner})`, height: "90vh", backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center'}}>
+      <Container sx={{ display:'flex',flexDirection:'column', backgroundImage: `url(${banner})`, height: "90vh", backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'center', '@media (min-width: 1200px)':{ maxWidth: 'none'}}}>
         <Box sx={{width:'500px',padding:'90px 35px'}}>
           <Typography variant='h3'>
             Hello Riders🚵‍♀️
