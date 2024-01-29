@@ -1,0 +1,64 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 1);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 800ms, text-underline-offset 300ms;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+    text-decoration-color: rgba(255, 0, 180, 1);
+    text-underline-offset: 0.4em;
+  }
+
+.navbar .navbar_item{
+    display: inline-block;
+    /* margin:  0px 15px; */
+    font-size: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.drawer_list{
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.drawer_list a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    /* padding: 10px; */
+    width: 100%;
+}
+.drawer_list .drawer_list_item {
+    padding: 0px;
+}
+
+.drawer_list .drawer_list_item .list_item_text{
+    
+    width: 100px;
+}
+
+.drawer_list .drawer_list_item .list_item_text .list_item_text_link{
+    width: 100px;
+}
+
+.drawer_list .list_menu_btn{
+    text-align: center;
+}

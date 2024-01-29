@@ -1,0 +1,8 @@
+.footer_text{
+    text-align: center;
+    display: inline-block;
+}
+
+.media_icon:hover{
+    color:goldenrod;
+}
